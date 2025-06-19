@@ -45,7 +45,7 @@ author = "Max"
 
     const data = {
       name: formData.get('name'),
-      datetime: formData.get('termin'),
+      termin: formData.get('termin'),
       service: services,
       email: formData.get('email'),
       kommentar: formData.get('kommentar'),
