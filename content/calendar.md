@@ -12,7 +12,7 @@ author = "Max"
   <input type="text" id="name" name="name" required>
 
   <label for="datetime">Terminwunsch:</label>
-  <input type="datetime" id="termin" name="termin" required>
+  <input type="datetime-local" id="termin" name="termin" required>
 
   <label for="service">Service:</label>
   <select id="service" name="service" multiple required>
