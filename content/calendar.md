@@ -11,7 +11,7 @@ author = "Max"
   <label for="name">Name:</label>
   <input type="text" id="name" name="name" required>
 
-  <label for="datetime">Terminwunsch:</label>
+  <label for="termin">Terminwunsch:</label>
   <input type="datetime-local" id="termin" name="termin" required>
 
   <label for="service">Service:</label>
