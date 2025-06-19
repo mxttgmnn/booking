@@ -12,7 +12,7 @@ author = "Max"
   <input type="text" id="name" name="name" required>
 
   <label for="datetime">Terminwunsch:</label>
-  <input type="termin" id="datetime" name="datetime" required>
+  <input type="datetime" id="termin" name="termin" required>
 
   <label for="service">Service:</label>
   <select id="service" name="service" multiple required>
@@ -28,7 +28,7 @@ author = "Max"
   <input type="tel" id="whatsapp" name="whatsapp" placeholder="+491701234567">
 
   <label for="whatsapp">Kommentar:</label>
-  <input type="textarea" id="kommentar" name="whatsapp" placeholder="+491701234567">
+  <input type="textarea" id="kommentar" name="kommentar" placeholder="Dein Kommentar">
 
   <button type="submit">Termin anfragen</button>
 </form>
@@ -45,9 +45,10 @@ author = "Max"
 
     const data = {
       name: formData.get('name'),
-      datetime: formData.get('datetime'),
+      datetime: formData.get('termin'),
       service: services,
       email: formData.get('email'),
+      kommentar: formData.get('kommentar'),
       whatsapp: formData.get('whatsapp') || null
     };
 
