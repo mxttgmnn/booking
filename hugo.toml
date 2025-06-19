@@ -9,6 +9,10 @@ pagerSize = 20
 [markup.highlight]
 style = "github-dark"
 
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
 [params]
   author = "John Doe"
   info = "Full Stack DevOps and Magician"
@@ -31,6 +35,7 @@ style = "github-dark"
   # customCSS = ["css/custom.css"]
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
+
 
 [taxonomies]
   category = "categories"
