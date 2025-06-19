@@ -6,10 +6,6 @@ theme = "hugo-coder"
 [pagination]
 pagerSize = 20
 
-[services]
-[services.disqus]
-shortname = "yourdiscussshortname"
-
 [markup.highlight]
 style = "github-dark"
 
@@ -65,6 +61,6 @@ style = "github-dark"
   weight = 1
   url  = "posts/"
 [[menu.main]]
-  name = "About"
+  name = "Kalender"
   weight = 2
-  url = "about/"
+  url = "kalender/"
