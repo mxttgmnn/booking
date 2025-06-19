@@ -1,0 +1,6 @@
+baseURL = "https://github.com/mxttgmnn/booking/"
+languageCode = "de-de"
+title = "Booking"
+theme = "hugo-saasify-theme"
+summaryLength = 20
+enableRobotsTXT = false
