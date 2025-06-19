@@ -1,4 +1,4 @@
-baseURL = "https://github.com/mxttgmnn/booking/"
+baseURL = "https://mxttgmnn.github.io/booking/"
 languageCode = "de-de"
 title = "Booking"
 theme = "hugo-coder"
