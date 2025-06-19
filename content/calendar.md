@@ -28,7 +28,7 @@ author = "Max"
   <input type="tel" id="whatsapp" name="whatsapp" placeholder="+491701234567">
 
   <label for="whatsapp">Kommentar:</label>
-  <input type="textarea" id="kommentar" name="kommentar" placeholder="Dein Kommentar">
+  <input type="text" id="kommentar" name="kommentar" placeholder="Dein Kommentar">
 
   <button type="submit">Termin anfragen</button>
 </form>
